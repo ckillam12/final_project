@@ -7,9 +7,9 @@ A monster will be in the next rooom.
 The program will give a list of a few options and depending on what the user inputs will allow them to escape the monster, kill the monster, or be killed by the monster. 
 After going through the correct rooms, you will finally fight Dracula and either be killed or successfully escape the castle.
 
-Functions will be called depending on what action the user decides to take when deciding which room to go into or how to deal with a monster./n
-One of the functions can be dedicated to choosing a next location after defeating a monster./n
-Another can be a function for fighting monsters. For each class of monster there will be a different set of possible actions to take to defeat it or be killed by it./n
-Another can be a function for opening a manual about monsters to figure out their weaknesses before fighting them./n
+Functions will be called depending on what action the user decides to take when deciding which room to go into or how to deal with a monster.
+- One of the functions can be dedicated to choosing a next location after defeating a monster.
+- Another can be a function for fighting monsters. For each class of monster there will be a different set of possible actions to take to defeat it or be killed by it.
+- Another can be a function for opening a manual about monsters to figure out their weaknesses before fighting them.
 
 
