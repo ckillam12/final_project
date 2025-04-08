@@ -14,4 +14,6 @@ The program will work through a Tkinter GUI class that will change labels and bu
  Will create a frame for each stage of the game with different buttons and texts depending on the room
 - Actions class functions
  Will call a room function depending on the button pressed in a frame to send user to next stage of the game
+- Labels:
+ Text will be organized in a JSON file for each action, room, and monster combination and called for each rooms description of the users situation
 
