@@ -3,6 +3,7 @@ My project will be a game where you are taken into Dracula's castle going from r
 At each room there is a monster that you will have to deal with in some way. 
 The program will first load a GUI and begin a sequence of frames with the first printing an explanation of the user's predicament in Dracula's castle, and then instructions on how to play the game and escape the castle. 
 The program will then put the user into a room where a monster will be. 
+The monster will be either a wolf, zombie, or spider and will be randomly chosen for each room besides the last room where Dracula is.
 The program will give a list of a few options, and depending on what the user inputs, will allow them to escape the monster, kill the monster, or be killed. 
 After going through the rooms, you will finally fight Dracula and either be killed or successfully escape the castle.
 
