@@ -1,0 +1,25 @@
+{"instructions": [""],
+                "room intro": {
+                    "wolf": [""],
+                    "zombie": [""],
+                    "spider": [""],
+                    "dracula": [""]
+                },
+                "action_consequences": {
+                    "wolf": {"attack/survive": [""],
+                                "submit": [""],
+                                "attack/die": [""],
+                                "die": [""]},
+                     "spider": {"attack/survive": [""],
+                                "submit": [""],
+                                "attack/die": [""],
+                                "die": [""]},
+                     "zombie": {"attack/survive": [""],
+                                "submit": [""],
+                                "attack/die": [""],
+                                "die": [""]},
+                     "dracula": {"attack/survive": "",
+                              "submit": "",
+                              "attack/die": [""],
+                              "die": [""]}
+                     }}
