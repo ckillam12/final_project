@@ -1,34 +1,235 @@
-{"instructions": [""],
-                "room introduction": {
-                    "wolf": {
-                        "room1": [""],
-                        "room2": [""],
-                        "room3": [""],
-                    "zombie": {
-                        "room1": [""],
-                        "room2": [""],
-                        "room3": [""]},
-                    "spider": {
-                        "room1": [""],
-                        "room2": [""],
-                        "room3": [""]},
-                    "dracula room": [""]
-                },
-                "action consequences": {
-                    "wolf": {"attack/survive": [""],
-                                "submit": [""],
-                                "attack/die": [""],
-                                "die": [""]},
-                     "spider": {"attack/survive": [""],
-                                "submit": [""],
-                                "attack/die": [""],
-                                "die": [""]},
-                     "zombie": {"attack/survive": [""],
-                                "submit": [""],
-                                "attack/die": [""],
-                                "die": [""]},
-                     "dracula": {"attack/survive": "",
-                              "submit": "",
-                              "attack/die": [""],
-                              "die": [""]}
-                     }}}
+                {
+                    "instructions": [
+                        "Hello! Welcome to Dracula's Castle. You have been dragged here by Dracula's minions to be a feast for his monsters.\n Try to escape the monsters or if your brave kill them! But make sure your quick or the monsters will get you! Press start to begin your escape!"
+                    ],
+                    "room introduction": {
+                        "wolf": {
+                            "room1": [
+                                "You wake up in a room with a pair of glowing eyes staring at you. "
+                            ],
+                            "room2": [
+                                "bla bla bla room 2 wolf is there"
+                            ],
+                            "room3": [
+                                "bla bla bla room 3 wolf is there"
+                            ]
+                        },
+                        "zombie": {
+                            "room1": [
+                                "You wake up in a room and hear an awful groan."
+                            ],
+                            "room2": [
+                                "bla bla bla room 2 zombie is there"
+                            ],
+                            "room3": [
+                                "bla bla bla room 3 zombie is there"
+                            ]
+                        },
+                        "spider": {
+                            "room1": [
+                                "You wake up in a room with four pairs of glowing eyes staring at you."
+                            ],
+                            "room2": [
+                                "bla bla bla room 2 spider is there"
+                            ],
+                            "room3": [
+                                "bla bla bla room 3 spider is there"
+                            ]
+                        },
+                        "room4": [
+                            "bla bla bla dracula"
+                        ]
+                    },
+                    "buttons": {
+                        "attack": {
+                            "room1": [
+                                "attack"
+                            ],
+                            "room2": [
+                                "attack"
+                            ],
+                            "room3": [
+                                "attack"
+                            ],
+                            "room4": [
+                                "attack"
+                            ]
+                        },
+                        "escape": {
+                            "room1": [
+                                "escape"
+                            ],
+                            "room2": [
+                                "escape"
+                            ],
+                            "room3": [
+                                "escape"
+                            ],
+                            "room4": [
+                                "escape"
+                            ]
+                        },
+                        "die": {
+                            "room1": [
+                                "die"
+                            ],
+                            "room2": [
+                                "die"
+                            ],
+                            "room3": [
+                                "die"
+                            ],
+                            "room4": [
+                                "die"
+                            ]
+                        }
+                    },
+                    "action consequences": {
+                        "room1": {
+                            "wolf": {
+                                "attack/survive": [
+                                    "explodes"
+                                ],
+                                "escape": [
+                                    "explodes"
+                                ],
+                                "attack/die": [
+                                    "explodes"
+                                ],
+                                "die": [
+                                    "explodes"
+                                ]
+                            },
+                            "spider": {
+                                "attack/survive": [
+                                    "explodes"
+                                ],
+                                "escape": [
+                                    "explodes"
+                                ],
+                                "attack/die": [
+                                    "explodes"
+                                ],
+                                "die": [
+                                    "explodes"
+                                ]
+                            },
+                            "zombie": {
+                                "attack/survive": [
+                                    "explodes"
+                                ],
+                                "escape": [
+                                    "explodes"
+                                ],
+                                "attack/die": [
+                                    "explodes"
+                                ],
+                                "die": [
+                                    "explodes"
+                                ]
+                            }
+                        },
+                        "room2": {
+                            "wolf": {
+                                "attack/survive": [
+                                    "explodes"
+                                ],
+                                "escape": [
+                                    "explodes"
+                                ],
+                                "attack/die": [
+                                    "explodes"
+                                ],
+                                "die": [
+                                    "explodes"
+                                ]
+                            },
+                            "spider": {
+                                "attack/survive": [
+                                    "explodes"
+                                ],
+                                "escape": [
+                                    "explodes"
+                                ],
+                                "attack/die": [
+                                    "explodes"
+                                ],
+                                "die": [
+                                    "explodes"
+                                ]
+                            },
+                            "zombie": {
+                                "attack/survive": [
+                                    "explodes"
+                                ],
+                                "escape": [
+                                    "explodes"
+                                ],
+                                "attack/die": [
+                                    "explodes"
+                                ],
+                                "die": [
+                                    "explodes"
+                                ]
+                            }
+                        },
+                        "room3": {
+                            "wolf": {
+                                "attack/survive": [
+                                    "explodes"
+                                ],
+                                "escape": [
+                                    "explodes"
+                                ],
+                                "attack/die": [
+                                    "explodes"
+                                ],
+                                "die": [
+                                    "explodes"
+                                ]
+                            },
+                            "spider": {
+                                "attack/survive": [
+                                    "explodes"
+                                ],
+                                "escape": [
+                                    "explodes"
+                                ],
+                                "attack/die": [
+                                    "explodes"
+                                ],
+                                "die": [
+                                    "explodes"
+                                ]
+                            },
+                            "zombie": {
+                                "attack/survive": [
+                                    "explodes"
+                                ],
+                                "escape": [
+                                    "explodes"
+                                ],
+                                "attack/die": [
+                                    "explodes"
+                                ],
+                                "die": [
+                                    "explodes"
+                                ]
+                            }
+                        },
+                        "dracula": {
+                            "attack/survive": [
+                                "explodes"
+                            ],
+                            "escape": [
+                                "explodes"
+                            ],
+                            "attack/die": [
+                                "explodes"
+                            ],
+                            "die": [
+                                "explodes"
+                            ]
+                        }
+                    }
+                }
