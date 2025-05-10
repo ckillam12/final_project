@@ -1,0 +1,5 @@
+#Start code:
+###Press Start button
+###Choose one of three buttons to decide what happens next
+###Press continue or go home if you chose the die option
+###Continue for next three rooms
