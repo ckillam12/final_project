@@ -9,11 +9,11 @@ After going through the rooms, you will finally fight Dracula and either be kill
 
 The program will work through a Tkinter GUI class that will change labels and buttons depending on the "room" the player is in.
 - Gui class functions:
- Will create frames necessary for the game to run and destroy each frame before the next one is created
+ Will create frames necessary for the game to run and use a show_page function to bring the needed frame onto the screen
 - Rooms class functions:
- Will create a frame for each stage of the game with different buttons and texts depending on the room
+ Button choice be called when a button is pressed and will be passed the type of button pressed and which room the button was pressed in
 - Actions class functions
- Will call a room function depending on the button pressed in a frame to send user to next stage of the game
+ Attack function will choose whether or not you die
 - Labels:
- Text will be organized in a JSON file for each action, room, and monster combination and called for each rooms description of the users situation
+ Text will be organized in a JSON file for each action, room, and monster combination and labels will be updated showing each rooms description of the users situation
 
