@@ -19,7 +19,7 @@ The program will work through a Tkinter GUI class that will change labels and bu
 - Game reset:
  The games conditions will be reset after dying or reaching the end of the game.
 - Imports and requirements:
-  Have the downloaded JSON file in same directory
+  Have the downloaded JSON file in same directory, 
   Import tkinter, json, and random
   
   
