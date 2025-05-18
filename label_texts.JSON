@@ -5,230 +5,206 @@
                     "room introduction": {
                         "wolf": {
                             "room1": [
-                                "You wake up in a room with a pair of glowing eyes staring at you. "
+                                "You wake up in a room with a pair of glowing eyes staring at you. A wolf is in front of you and it looks hungry.\n In the room you see a broken mirror, a door, and a small opening in the flooring"
                             ],
                             "room2": [
-                                "bla bla bla room 2 wolf is there"
+                                "You enter a room and a man is inside surrounded by a pack of wolves. He looks at you and says 'Help me!' \n In the room you see a lantern, a sword in a case, and the wolves turning towards you."
                             ],
                             "room3": [
-                                "bla bla bla room 3 wolf is there"
+                                "You reach the top of the stairs and see a wolf resting in the moonlight. It spots you and slowly approaches growling. \n Theres a large open window, an axe hanging on the wall, and a large wooden door."
                             ]
                         },
                         "zombie": {
                             "room1": [
-                                "You wake up in a room and hear an awful groan."
+                                "You wake up in a room and hear an awful groan. A zombie is in front of you and it looks hungry.\n In the room you see a broken mirror, a door, and a small opening in the flooring"
                             ],
                             "room2": [
-                                "bla bla bla room 2 zombie is there"
+                                "You enter a room and a man is inside surrounded by a pack of zombies. He looks at you and says 'Help me!' \n In the room you see a lantern, a sword in a case, and the zombies turning towards you."
                             ],
                             "room3": [
-                                "bla bla bla room 3 zombie is there"
+                                "You reach the top of the stairs and see a zombie tearing into a corpse. It spots you and slowly approaches. \n Theres a large open window, an axe hanging on the wall, and a large wooden door"
                             ]
                         },
                         "spider": {
                             "room1": [
-                                "You wake up in a room with four pairs of glowing eyes staring at you."
+                                "You wake up in a room with a pair of glowing eyes staring at you. A wolf is in front of you and it looks hungry.\n In the room you see a broken mirror, a door, and a small opening in the flooring"
                             ],
                             "room2": [
-                                "bla bla bla room 2 spider is there"
+                                "You enter a room and a man is inside surrounded by 3 massive spiders. It smells like fuel. He looks at you and says 'Help me!' \n In the room you see a lantern, a sword in a case, and the spiders turning towards you."
                             ],
                             "room3": [
-                                "bla bla bla room 3 spider is there"
+                                "You reach the top of the stairs and see a huge spider in its web. It spots you and slowly approaches hissing. \n Theres a large open window, an axe hanging on the wall, and a large wooden door"
                             ]
                         },
-                        "room4": [
-                            "bla bla bla dracula"
+                        "dracula": [
+                            "You open the door and see Dracula standing in the middle of a large library. He looks at you and says 'I'm going to make a meal of you!'\n In the room you see a table with a broken leg, another large window, and dracula drawing out his fangs to lunge towards you"
                         ]
                     },
                     "buttons": {
                         "attack": {
-                            "room1": [
-                                "attack"
-                            ],
-                            "room2": [
-                                "attack"
-                            ],
-                            "room3": [
-                                "attack"
-                            ],
-                            "room4": [
-                                "attack"
-                            ]
+                            "room1": "Grab the piece of broken glass",
+                            "room2": "Jump towards the lantern",
+                            "room3": "Leap for the axe",
+                            "room4": "Cut the table leg into a stake"
                         },
                         "escape": {
-                            "room1": [
-                                "escape"
-                            ],
-                            "room2": [
-                                "escape"
-                            ],
-                            "room3": [
-                                "escape"
-                            ],
-                            "room4": [
-                                "escape"
-                            ]
+                            "room1": "Run to the door",
+                            "room2": "Leave him",
+                            "room3": "Jump out the window",
+                            "room4": "Submit your life to Dracula and become his servant"
                         },
                         "die": {
-                            "room1": [
-                                "die"
-                            ],
-                            "room2": [
-                                "die"
-                            ],
-                            "room3": [
-                                "die"
-                            ],
-                            "room4": [
-                                "die"
-                            ]
+                            "room1": "Jump into hole",
+                            "room2": "Run to for the sword",
+                            "room3": "Sprint towards the door",
+                            "room4": "Jump out the window"
                         }
                     },
                     "action consequences": {
                         "room1": {
                             "wolf": {
                                 "attack/survive": [
-                                    "explodes"
+                                    "You stab the wolf in its heart before it sinks in its teeth. You are safe for now and cross\n the hall to inspect the next room for exits."
                                 ],
                                 "escape": [
-                                    "explodes"
+                                    "You barely escape the jaws of the beast. You are safe for now and cross\n the hall to inspect the next room for exits."
                                 ],
                                 "attack/die": [
-                                    "explodes"
+                                    "The wolf sinks its teeth into your neck."
                                 ],
                                 "die": [
-                                    "explodes"
+                                    "You fall into a pit of spikes."
                                 ]
                             },
                             "spider": {
                                 "attack/survive": [
-                                    "explodes"
+                                    "You stab the spider in its abdomen before it sinks in its teeth. You are safe for now and cross\n the hall to inspect the next room for exits."
                                 ],
                                 "escape": [
-                                    "explodes"
+                                    "You barely escape the jaws of the beast. You are safe for now and cross\n the hall to inspect the next room for exits."
                                 ],
                                 "attack/die": [
-                                    "explodes"
+                                    "The spider wraps you into a cacoon and feasts on your body."
                                 ],
                                 "die": [
-                                    "explodes"
+                                    "You fall into a pit of spikes"
                                 ]
                             },
                             "zombie": {
                                 "attack/survive": [
-                                    "explodes"
+                                    "You cut the zombie's head off before it sinks in its teeth. You are safe for now and cross\n the hall to inspect the next room for exits."
                                 ],
                                 "escape": [
-                                    "explodes"
+                                    "You barely escape the zombie's grasp. You are safe for now and cross\n the hall to inspect the next room for exits."
                                 ],
                                 "attack/die": [
-                                    "explodes"
+                                    "The zombie eats your brains."
                                 ],
                                 "die": [
-                                    "explodes"
+                                    "You fall into a pit of spikes"
                                 ]
                             }
                         },
                         "room2": {
                             "wolf": {
                                 "attack/survive": [
-                                    "explodes"
+                                    "You throw the lantern at the feet of the wolves and a fire erupts across the floor.\n The man and the wolves become engulfed in flames while you crawl out the door.\n You are safe for now and see a tall staircase leading upstairs."
                                 ],
                                 "escape": [
-                                    "explodes"
+                                    "You close the door and hear the man torn apart. You are safe for now and see a tall staircase leading upstairs."
                                 ],
                                 "attack/die": [
-                                    "explodes"
+                                    "You throw the lantern at the feet of the wolves and a fire erupts across the floor. You become engulfed in flames."
                                 ],
                                 "die": [
-                                    "explodes"
+                                    "The wolves are too fast. You are torn apart with the man"
                                 ]
                             },
                             "spider": {
                                 "attack/survive": [
-                                    "explodes"
+                                    "You throw the lantern at the feet of the spiders and a fire erupts across the floor.\n The man and the spiders become engulfed in flames while you crawl out the door.\n You are safe for now and see a tall staircase leading upstairs."
                                 ],
                                 "escape": [
-                                    "explodes"
+                                    "You close the door and hear the man torn apart. You are safe for now and see a tall staircase leading upstairs."
                                 ],
                                 "attack/die": [
-                                    "explodes"
+                                    "You throw the lantern at the feet of the spiders and a fire erupts across the floor. You become engulfed in flames."
                                 ],
                                 "die": [
-                                    "explodes"
+                                    "The spiders shoot you with a web. You're stuck to the case while the spiders feast on you."
                                 ]
                             },
                             "zombie": {
                                 "attack/survive": [
-                                    "explodes"
+                                    "You throw the lantern at the feet of the zombies and a fire erupts across the floor.\n The man and the zombies become engulfed in flames while you crawl out the door.\n You are safe for now and see a tall staircase leading upstairs."
                                 ],
                                 "escape": [
-                                    "explodes"
+                                    "You close the door and hear the man torn apart. You are safe for now and see a tall staircase leading upstairs."
                                 ],
                                 "attack/die": [
-                                    "explodes"
+                                    "You throw the lantern at the feet of the zombies and a fire erupts across the floor. You become engulfed in flames."
                                 ],
                                 "die": [
-                                    "explodes"
+                                    "The case is locked. The zombies surround and eat you."
                                 ]
                             }
                         },
                         "room3": {
                             "wolf": {
                                 "attack/survive": [
-                                    "explodes"
+                                    "The axe cuts through the wolf's skull. You are safe for now and approach the large wooden door."
                                 ],
                                 "escape": [
-                                    "explodes"
+                                    "You jump out the window and grab hold of a thick vine hanging from the wall. The wolf follows and falls to its death.\n You are safe for now and approach the large wooden door."
                                 ],
                                 "attack/die": [
-                                    "explodes"
+                                    "The wolf pounces on you before you can get to the axe and rips out your innards."
                                 ],
                                 "die": [
-                                    "explodes"
+                                    "The wolf snaps your neck before you can get to the door."
                                 ]
                             },
                             "spider": {
                                 "attack/survive": [
-                                    "explodes"
+                                    "The axe cuts through the spider's abdomen. You are safe for now and approach the large wooden door."
                                 ],
                                 "escape": [
-                                    "explodes"
+                                    "You jump out the window and grab hold of a thick vine hanging from the wall. The spider follows and falls to its death.\n You are safe for now and approach the large wooden door."
                                 ],
                                 "attack/die": [
-                                    "explodes"
+                                    "The spider pounces on you before you can get to the axe and rips out your innards."
                                 ],
                                 "die": [
-                                    "explodes"
+                                    "You trip and fall into the spider's web. The spider injects you with its venom."
                                 ]
                             },
                             "zombie": {
                                 "attack/survive": [
-                                    "explodes"
+                                    "The axe cuts the zombie in two. You are safe for now and approach the large wooden door."
                                 ],
                                 "escape": [
-                                    "explodes"
+                                    "You jump out the window and grab hold of a thick vine hanging from the wall. The zombie follows and falls to its death.\n You are safe for now and approach the large wooden door."
                                 ],
                                 "attack/die": [
-                                    "explodes"
+                                    "You trip before you can get to the axe and the zombie rips out your innards."
                                 ],
                                 "die": [
-                                    "explodes"
+                                    "The zombie bites your ankkle and you fall to the ground. you get eaten alive."
                                 ]
                             }
                         },
                         "dracula": {
                             "attack/survive": [
-                                "explodes"
+                                "You snap off the table leg and stick Dracula in the heart. He screams and turns to dust.\n You have defeated Dracula and his minions!"
                             ],
                             "escape": [
-                                "explodes"
+                                "You submit to Dracula and he turns you into his servant. You are now a vampire and have become one of his minions."
                             ],
                             "attack/die": [
-                                "explodes"
+                                "Dracula sees your plan and Takes hold of the stake. He sinks his fangs into your neck and become his servant."
                             ],
                             "die": [
-                                "explodes"
+                                "Dracula sinks his teeth into your neck and you become his servant. You are now a vampire and have become one of his minions."
                             ]
                         }
                     }
