@@ -7,7 +7,6 @@ with open("label_texts.JSON") as file_handle:
 text_dictionary = json.loads(json_string)
 
 class DraculaApp():
-    screensize = (800,600)
     def __init__(self):
         self.room = 1
         self.monster = None
@@ -43,7 +42,8 @@ class DraculaApp():
         self.start_button = tk.Button(self.title_page, text="Start", command=lambda: self.button_choice(page="room"))
         self.start_button.pack()
 
-        quit_button = tk.Button(self.title_page, text="Quit", command=self.root.destroy).pack()
+        quit_button = tk.Button(self.title_page, text="Quit", command=self.root.destroy)
+        quit_button.pack()
 
     def setup_room_page(self):
         
@@ -178,6 +178,7 @@ class DraculaApp():
         self.monster = monster
 
         return monster
+    
     def shuffle_buttons(self):
         ### shuffles the order of the buttons
         button_list = [self.attack_button, self.escape_button, self.die_button]
