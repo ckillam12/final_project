@@ -18,7 +18,7 @@ class DraculaApp():
         self.init_window()
 
     def init_window(self):
-
+        ### will open game pages
         self.root.title("Dracula's Castle")
         self.game_frame = tk.Frame(self.root)
         self.game_frame.pack(fill="both", expand=True)
@@ -66,7 +66,7 @@ class DraculaApp():
         
         self.result_label = tk.Label(self.result_page, text="")
         self.result_label.pack(pady=10)
-
+    
         self.next_button = tk.Button(self.result_page, text="Continue", command=lambda: self.button_choice(page="room"))
         self.next_button.pack()
 
@@ -74,16 +74,20 @@ class DraculaApp():
         quit_button.pack()
 
     def show_page(self, frame):
+        ### brings up called page
         frame.tkraise()
 
     def attack(self):
+        ### chooses outcome of attack choice
         outcome_list = ["attack/survive", "attack/die"]
         outcome = random.choice(outcome_list)
 
         return outcome
 
     def button_choice(self, page=None, button=None):
+        ### chooses outcome of button choice
 
+        ### update after start and continue buttons
         if button is None and self.room < 4:
             self.monster = self.monster_randomizer()
             self.last_button_pressed = None
@@ -94,14 +98,14 @@ class DraculaApp():
             self.shuffle_buttons()
             self.show_page(self.room_page)
             return
-
+        
         self.last_button_pressed = button
-
+        ### specifies outcome based on button choice
         if button == "attack":
             consequence = self.attack()
         else:
             consequence = button
-
+        ### Go back to home page after death
         if button == "die" or consequence == "attack/die":
             if self.room < 4:
                 self.result_label.config(text=self.update_text(page, button, consequence=consequence))
@@ -111,7 +115,7 @@ class DraculaApp():
             self.reset_game()
             self.show_page(self.result_page)
             return
-        
+        ### update after action buttons
         if self.room < 4:
             self.room_label.config(text=self.update_text(page, button))
             self.attack_button.config(text=self.update_text(page, button="attack"))
@@ -125,7 +129,7 @@ class DraculaApp():
                 self.monster = None
             self.show_page(self.result_page)
             return
-        
+        ### update for final room
         if self.last_button_checker == 0:
             self.room_label.config(text=self.update_text(page, button=None, dracula=True))
             self.attack_button.config(text=self.update_text(page, button="attack", dracula=True))
@@ -135,7 +139,7 @@ class DraculaApp():
             self.last_button_checker = 1
             self.show_page(self.room_page)
             return
-        
+        ### update after action button in final room
         else:
             self.result_label.config(text=self.update_text(page, button, consequence=consequence, dracula=True))
             self.next_button.config(text="Go Home", command=lambda: self.show_page(self.title_page))
@@ -144,6 +148,7 @@ class DraculaApp():
             return
 
     def update_text(self, page=None, button=None, consequence=None, dracula=None):
+        ### gets text from JSON file for specific conditions
         if page != None and button != None and consequence == None and dracula == None:
             text = text_dictionary["buttons"][button][f"room{self.room}"]
         if page != None and button != None and consequence != None and dracula == None:
@@ -160,6 +165,7 @@ class DraculaApp():
         return text
 
     def monster_randomizer(self):
+        ### randomizes monster for each room
         monsters = ["wolf", "zombie", "spider"]
         if len(self.used_monsters) >= len(monsters):
             self.used_monsters = []
@@ -173,6 +179,7 @@ class DraculaApp():
 
         return monster
     def shuffle_buttons(self):
+        ### shuffles the order of the buttons
         button_list = [self.attack_button, self.escape_button, self.die_button]
         for button in button_list:
             button.pack_forget()
@@ -182,6 +189,7 @@ class DraculaApp():
             button.pack()
     
     def reset_game(self):
+        ### resets game to original state
         self.room = 1
         self.monster = None
         self.used_monsters = []
