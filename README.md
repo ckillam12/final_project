@@ -12,7 +12,7 @@ The program will work through a Tkinter GUI class that will change labels and bu
  Will create frames necessary for the game to run and use a show_page function to bring the needed frame onto the screen. Buttons will be shuffled in shuffle button function so prediction based on order will be avoided.
 - Rooms class functions:
   The button choice function will be called when a button is pressed and will be passed the type of button pressed and which room the button was pressed in. It will then call the update text function for each button and label for the next loading room and configure the new text for that room. The monster randomizer function will also be called in button choice when the room page is updated and loaded in making each room have a different monster.
-- Actions class functions
+- Actions class functions:
  Attack function will choose whether or not you die
 - Labels:
  Text will be organized in a JSON file for each action, room, and monster combination and labels will be updated showing each rooms description of the users situation
