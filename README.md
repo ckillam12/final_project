@@ -17,5 +17,11 @@ The program will work through a Tkinter GUI class that will change labels and bu
 - Labels:
  Text will be organized in a JSON file for each action, room, and monster combination and labels will be updated showing each rooms description of the users situation
 - Game reset:
-  The games conditions will be reset after dying or reaching the end of the game. 
+ The games conditions will be reset after dying or reaching the end of the game.
+- Imports and requirements:
+  Have the downloaded JSON file in same directory
+  Import tkinter, json, and random
+  
+  
+
 
